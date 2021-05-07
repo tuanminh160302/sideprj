@@ -21,7 +21,7 @@
         -moz-transform-origin: top;
         -ms-transform-origin: top;
         -o-transform-origin: top;
-        display: none;
+        /* display: none; */
     }
     
     #preloader-text{
