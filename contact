@@ -25,9 +25,9 @@
         <!-- <a href="index.html"><img id="logo" src="img/logo.png" alt=""></a> -->
         <img id="logo" src="img/logo.png" alt="">
         <ul class="nav-bar">
-            <li class="nav-bar-elt"><a href="index.html">home</a></li>
-            <li class="nav-bar-elt"><a href="about.html">about</a></li>
-            <li class="nav-bar-elt"><a href="contact.html">contact</a></li>
+            <li class="nav-bar-elt"><a href="index">home</a></li>
+            <li class="nav-bar-elt"><a href="about">about</a></li>
+            <li class="nav-bar-elt"><a href="contact">contact</a></li>
         </ul>
     </header>
 
@@ -39,9 +39,9 @@
     
       <div class="menu-container">
         <ul class="nav-bar-m">
-          <li class="nav-bar-elt-m"><a href="index.html">home</a></li>
-          <li class="nav-bar-elt-m"><a href="about.html">about</a></li>
-          <li class="nav-bar-elt-m"><a href="contact.html">contact</a></li>
+          <li class="nav-bar-elt-m"><a href="index">home</a></li>
+          <li class="nav-bar-elt-m"><a href="about">about</a></li>
+          <li class="nav-bar-elt-m"><a href="contact">contact</a></li>
         </ul>
       </div>
 
