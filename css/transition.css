@@ -1,0 +1,58 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .transition {
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        background: white;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        -moz-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        transform-origin: right;
+        -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+        -moz-transform-origin: right;
+        -o-transform-origin: right;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .transition {
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        background: white;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        -moz-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        transform-origin: right;
+        -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+        -moz-transform-origin: right;
+        -o-transform-origin: right;
+    }
+}

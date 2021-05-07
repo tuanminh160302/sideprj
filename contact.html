@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/circle.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/transition.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Shade">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stalemate&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Cabin+Sketch&display=swap" rel="stylesheet">
+</head>
+<body data-barba="wrapper">
+    
+    <span id="circle" class="circle circle-home"></span>
+
+    <header>
+        <!-- <a href="index.html"><img id="logo" src="img/logo.png" alt=""></a> -->
+        <img id="logo" src="img/logo.png" alt="">
+        <ul class="nav-bar">
+            <li class="nav-bar-elt"><a href="index.html">home</a></li>
+            <li class="nav-bar-elt"><a href="about.html">about</a></li>
+            <li class="nav-bar-elt"><a href="contact.html">contact</a></li>
+        </ul>
+    </header>
+
+    <div id="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    
+      <div class="menu-container">
+        <ul class="nav-bar-m">
+          <li class="nav-bar-elt-m"><a href="index.html">home</a></li>
+          <li class="nav-bar-elt-m"><a href="about.html">about</a></li>
+          <li class="nav-bar-elt-m"><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+
+    <div class="transition"></div>
+
+    <main data-barba="container" data-barba-namespace="contact">
+        <div class="vertical-bar"></div>
+        <section class="about-con">
+            <h1 class="glitch" data-text="stay tuned!">stay tuned!</h1>
+        </section>
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="js/barba.js"></script>
+    <script src="js/circle.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
