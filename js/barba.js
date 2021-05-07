@@ -8,7 +8,7 @@ function pageTransition() {
         tl.to('.transition', { delay: .1, duration: 0, transformOrigin: 'right' })
     } else if (windowWidth <= 600) {
         var tl = gsap.timeline();
-        tl.to('.transition', { duration: 0, scaleX: 1})
+        tl.to('.transition', { duration: 0.6, scaleX: 1, ease:'power4.inOut'})
         gsap.to('.nav-bar-elt-m', .3, {opacity: 0})
         tl.to('.menu-container', { delay: .2, duration: .9, scaleX: 0, ease: 'power4.inOut' })
         tl.to('.transition', { delay: .1, duration: .9, scaleX: 0, ease: 'power4.inOut' })
